@@ -108,17 +108,16 @@ h2 {
 
 .project-text {
     flex: 1;
-    justify-content: space-between;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .project-image {
     flex: 1;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .project-image img {
-    max-width: 50%;
+    max-width: 40%;
     border-radius: 8px;
 }
 
