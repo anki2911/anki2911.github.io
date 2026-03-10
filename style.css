@@ -119,11 +119,12 @@ h2 {
 .project-image img {
     /*max-width: 100%;*/
     border-radius: 8px;
-    width: 150px;
-    height: 150px;
+    /*width: 150px;
+    height: 150px;*/
     /*border-radius: 50%;*/
     /*object-fit: cover;8/
     /*border: 3px solid white;*/
+    max-width: 100%;
 }
 
 /* Publication list */
