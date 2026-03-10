@@ -108,7 +108,7 @@ h2 {
 
 .project-text {
     flex: 1;
-    /*text-align: center;*/
+    text-align: center;
 }
 
 .project-image {
@@ -117,7 +117,7 @@ h2 {
 }
 
 .project-image img {
-    max-width: 100%;
+    max-width: 50%;
     border-radius: 8px;
 }
 
