@@ -99,23 +99,23 @@ h2 {
     margin-top: 0;
 }
 
-.content-row {
+.project-container{
     display: flex;
     gap: 40px;
     margin-top: 20px;
     align-items: center;
 }
 
-.text-block {
+.project-text {
     flex: 1;
 }
 
-.image-block {
+.project-image {
     flex: 1;
     text-align: center;
 }
 
-.image-block img {
+.project-image img {
     max-width: 100%;
     border-radius: 8px;
 }
