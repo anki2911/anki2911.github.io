@@ -163,12 +163,6 @@ line-height: 1.8; /* Adjusts spacing within and between lines */
         <p>
           We evaluate our proposed approach on a 70 node WSN testbed, the <b>Indriya</b> testbed in NUS as well as on the Cooja simulator.
         </p>
-      <p>
-         The centralized schedule randomizatio technique generates the randomized schedules offline and distributes the schedules online. Hence, they cannot support any change in topology in the network. Further, this technique has energy overheads in distributing the schedules to all the network devices at runtime. Hence, we propose a distributed online schedule randomization technique, the <b>DistSlotShuffler</b>, that can generate random feasible schedules at runtime in each network device without affecting the closed-loop control stability. To increase the extent of randomization of time-slots in the schedules, this online distributed technique adopts a period adaptation strategy that can adjust the transmission periods of the real-time flows at runtime depending on the stability of the closed-loop controls. 
-      </p>
-        <p>
-          We evaluate our proposed approach on the GISOO simulator with the WSN network modelled in Cooja, and the controller and the physical plant modelled in Simulink.
-        </p>
     </div> 
     <div class="image-column">
       <div class="project-image">
@@ -177,10 +171,25 @@ line-height: 1.8; /* Adjusts spacing within and between lines */
       <div class="project-image">
         <img src="images/Randomized_Schedule_S.png" alt="RandomSchedule" width="200" height="200">
       </div>
-      <div class="project-image">
-        <img src="images/Gisoo.png" alt="Control" width="200" height="200">
-      </div>
     </div>
+    </div>
+    <div class="project-container">
+      <div class="project-text">
+        <p>
+          The centralized schedule randomization technique generates the randomized schedules offline and distributes the schedules online. Hence, they cannot support any change in topology in the network. Further, this technique has energy overheads in distributing the schedules to all the network devices at runtime. Hence, we propose a distributed online schedule randomization technique, the <b>DistSlotShuffler</b>, that can generate random feasible schedules at runtime in each network device without affecting the closed-loop control stability. To increase the extent of randomization of time-slots in the schedules, this online distributed technique adopts a period adaptation strategy that can adjust the transmission periods of the real-time flows at runtime depending on the stability of the closed-loop controls. 
+        </p>
+        <p>
+          We evaluate our proposed approach on the GISOO simulator with the WSN network modelled in Cooja, and the controller and the physical plant modelled in Simulink.
+        </p>
+      </div>
+      <div class="image-column">
+        <div class="project-image">
+          <img src="images/Gisoo.png" alt="Control" width="200" height="200">
+        </div>
+        <div class="project-image">
+          <img src="images/Control_Loops.png" alt="ControlLoop" width="200" height="200">
+        </div>
+      </div>
     </div>
 </section>
 
