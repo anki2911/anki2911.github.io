@@ -108,6 +108,7 @@ h2 {
 
 .project-text {
     flex: 1;
+    text-align: justify;
 }
 
 .project-image {
