@@ -129,6 +129,12 @@ h2 {
     object-fit: cover;
 }
 
+.project-image img2 {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
 /* Publication list */
 ul {
     line-height: 1.8;
