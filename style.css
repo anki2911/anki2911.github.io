@@ -129,7 +129,11 @@ h2 {
     object-fit: cover;
 }
 
-.project-image img2 {
+.project-image-2 {
+    flex: 1;
+    text-align: center;
+}
+.project-image-2 img {
     width: 60%;
     height: 60%;
     object-fit: cover;
