@@ -95,9 +95,9 @@ h2 {
     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
-.project h3 {
+/*.project h3 {
     margin-top: 0;
-}
+}*/
 
 .project-container {
     display: flex;
@@ -121,7 +121,7 @@ h2 {
     width: 150px;
     height: 150px;
     /*border-radius: 50%;*/
-    object-fit: cover;
+    /*object-fit: cover;8/
     /*border: 3px solid white;*/
 }
 
