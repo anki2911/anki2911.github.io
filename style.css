@@ -108,6 +108,7 @@ h2 {
 
 .project-text {
     flex: 1;
+    justify-content: space-between;
     text-align: center;
 }
 
