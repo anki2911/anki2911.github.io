@@ -48,6 +48,19 @@ line-height: 1.8; /* Adjusts spacing within and between lines */
 <h2>Projects</h2>
 
 <div class="project container">
+  <style>
+    .text-with-image {
+        display: flex;              /* Places items side-by-side */
+        align-items: center;        /* Vertically aligns image with text */
+        gap: 10px;                  /* Space between image and text */
+        max-width: 500px;           /* Optional: limit width */
+    }
+    .text-with-image img {
+        width: 80px;                /* Adjust image size */
+        height: auto;               /* Keep aspect ratio */
+        border-radius: 5px;         /* Optional: rounded corners */
+    }
+</style>
   <div class="project text">
     <h3>Designing Neurosymbolic Autonomous Cyber Agents for Enterprise Networks</h3>
       <img src="images/Network.png" alt="Project Diagram">
