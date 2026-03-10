@@ -99,7 +99,7 @@ h2 {
     margin-top: 0;
 }
 
-.project-container{
+.project-container {
     display: flex;
     gap: 40px;
     margin-top: 20px;
@@ -116,7 +116,7 @@ h2 {
 }
 
 .project-image img {
-    max-width: 100%;
+    max-width: 50%;
     border-radius: 8px;
 }
 
